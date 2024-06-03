@@ -1,0 +1,16 @@
+.main_body table{
+    margin: 10px 0;
+}
+.main_body table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    cursor: context-menu;
+}
+
+.main_body table tr:nth-child(odd){
+    background-color: rgb(129, 145, 155);
+}
+.main_body table thead, th{
+    background-color: rgb(5, 124, 197);
+}

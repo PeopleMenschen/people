@@ -1,0 +1,43 @@
+/*import css files */
+@import "header.css";
+@import "footer.css";
+@import "main_body.css";
+@import "responsive.css";
+@import "tables.css";
+@import "videos.css";
+
+/* reset default style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+}
+/* Colors */
+:root{
+    --B-Body-color: lightslategrey;
+    --B-H-F-color: darkslategray;
+    --Font-H-F-color: orange;
+
+    --Hover-H-F-color: rgb(2, 94, 97);
+
+}
+/* Fontsize */
+:root{
+    --s: 12px;
+    --m: 18px;
+    --l: 125px;
+}
+/* font face */
+/* @font-face{
+    font-family: openSans;
+    src: url(../fonts/OpenSans-Regular.ttf) format(ttf);
+} */
+
+/* Active */
+.active{
+    border-bottom: 2px solid orange;
+}

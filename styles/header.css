@@ -1,0 +1,86 @@
+.container .header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6px 0;
+    background-color: var(--B-H-F-color);
+    border-bottom: 1px dotted var(--Font-H-F-color);
+    z-index: 100;
+    /* box-shadow: 2px 2px 5px black; */
+}
+/* Logo section */
+.container .header .logo{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 15px;
+    top: 2px;
+    z-index: 10;
+}
+.container .header .logo img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+/* HamborgerMenu section */
+.container .header .menu{
+    position: fixed;
+    top: 3px;
+    right: 10px;
+    color: var(--Font-H-F-color);
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+    display: none;
+}
+/* Navigation */
+.container .header .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+
+}
+.container .header .navigation li{   
+    margin: 4px 10px;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+.container .header .navigation li a{
+    color: var(--Font-H-F-color);
+   
+}
+/* authentication */
+/* .header .authentication{
+    display: flex;
+    position: fixed;
+    right: 15px;
+    align-items: center;
+}
+.header .authentication li{
+    margin: 0 8px;
+    transition: all 0.5 ease-in-out;
+}
+.header .authentication li a{
+    color: orange;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 18px;
+    
+} */
+
+/* hover section */
+.container .header li:hover{
+    background-color: var(--Hover-H-F-color);
+    
+}

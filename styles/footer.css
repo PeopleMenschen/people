@@ -1,0 +1,35 @@
+.container .footer{
+    background-color: var(--B-H-F-color);
+    padding: 5px 30px;
+}
+.footer .section h3{
+    text-align: center;
+    padding: 3px;
+}
+.container .footer_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer li{
+    padding: 3px;
+    margin: 4px auto;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+.footer li a{
+    color: var(--Font-H-F-color);
+}
+.container .copyright{
+    text-align: center;
+    margin: 4px 0;
+    border-top: 1px dotted var(--Font-H-F-color);
+    color: var(--Font-H-F-color);
+}
+/* hover section */
+.container .footer_content li:hover{
+    background-color: var(--Hover-H-F-color);
+    
+}
